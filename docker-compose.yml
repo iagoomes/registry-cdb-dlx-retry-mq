@@ -22,7 +22,7 @@ services:
       dockerfile: producer/Dockerfile
     container_name: producer-api
     ports:
-      - "8080:8080"
+      - "8080eu p:8080"
     environment:
       RABBITMQ_HOST: rabbitmq
       RABBITMQ_PORT: 5672
