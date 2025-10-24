@@ -31,4 +31,14 @@
         <module>consumer</module>
     </modules>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.openapitools</groupId>
+                <artifactId>jackson-databind-nullable</artifactId>
+                <version>0.2.1</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
 </project>
